@@ -5,7 +5,7 @@ Test task. Create an app using public.nazk.gov.ua/public_api.
 
 ## Demo
 
-![Screenshot](https://github.com/vladhamilton/Declaration/blob/master/Screen%20Shot%202019-12-27%20at%202.06.02%20PM.png?raw=true) ![Screenshot1](https://github.com/vladhamilton/Declaration/blob/master/Screen%20Shot%202019-12-27%20at%202.06.24%20PM.png?raw=true) ![Screenshot2](https://github.com/vladhamilton/Declaration/blob/master/Screen%20Shot%202019-12-27%20at%202.06.48%20PM.png?raw=true)
+![Screenshot](https://github.com/vladhamilton/Declaration/blob/master/1.png?raw=true) ![Screenshot1](https://github.com/vladhamilton/Declaration/blob/master/2.png?raw=true) ![Screenshot2](https://github.com/vladhamilton/Declaration/blob/master/3.png?raw=true) ![Screenshot3](https://github.com/vladhamilton/Declaration/blob/master/4.png?raw=true)
 
 ## Technologies
 Project is created with:
