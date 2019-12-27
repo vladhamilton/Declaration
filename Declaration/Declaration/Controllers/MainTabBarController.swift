@@ -22,7 +22,7 @@ class MainTabBarController: UITabBarController {
     // MARK: - private
     
     private func setupViewControllers() {
-        viewControllers = [generateViewController(rootViewController: SearchViewController(), image: #imageLiteral(resourceName: "Search"), title: "Search"), generateViewController(rootViewController: FavoritesViewController(), image: #imageLiteral(resourceName: "star_filled"), title: "Favorites")]
+        viewControllers = [generateViewController(rootViewController: SearchViewController(), image: #imageLiteral(resourceName: "Search"), title: "Search"), generateViewController(rootViewController: FavoritesViewController(), image: #imageLiteral(resourceName: "Star_filled"), title: "Favorites")]
     }
     
     private func setupStyle() {

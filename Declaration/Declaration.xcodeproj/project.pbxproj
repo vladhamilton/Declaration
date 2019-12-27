@@ -27,6 +27,8 @@
 		F0985DFF23B60F1A00B78CE7 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985DFE23B60F1A00B78CE7 /* UserDefaultsService.swift */; };
 		F0985E0123B60F5100B78CE7 /* Extensions + UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985E0023B60F5100B78CE7 /* Extensions + UITableView.swift */; };
 		F0985E0323B60F6E00B78CE7 /* Extansions + Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985E0223B60F6E00B78CE7 /* Extansions + Array.swift */; };
+		F0985E0523B60FCE00B78CE7 /* CustonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985E0423B60FCE00B78CE7 /* CustonError.swift */; };
+		F0985E0723B60FF800B78CE7 /* PDFController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985E0623B60FF800B78CE7 /* PDFController.swift */; };
 		F8F192C54801E98F30AA1916 /* Pods_Declaration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E21C1F9897671712DF6D0 /* Pods_Declaration.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		F0985DFE23B60F1A00B78CE7 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		F0985E0023B60F5100B78CE7 /* Extensions + UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UITableView.swift"; sourceTree = "<group>"; };
 		F0985E0223B60F6E00B78CE7 /* Extansions + Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extansions + Array.swift"; sourceTree = "<group>"; };
+		F0985E0423B60FCE00B78CE7 /* CustonError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonError.swift; sourceTree = "<group>"; };
+		F0985E0623B60FF800B78CE7 /* PDFController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				F0985DE623B60A6500B78CE7 /* MainTabBarController.swift */,
 				F0985DE823B60A7600B78CE7 /* FavoritesViewController.swift */,
 				F0985DEA23B60A8300B78CE7 /* SearchViewController.swift */,
+				F0985E0623B60FF800B78CE7 /* PDFController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			children = (
 				F0985DEC23B60AE000B78CE7 /* BaseViewController.swift */,
 				F0985DF823B60E0A00B78CE7 /* ToggleButton.swift */,
+				F0985E0423B60FCE00B78CE7 /* CustonError.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -304,10 +310,12 @@
 				F0985DE923B60A7600B78CE7 /* FavoritesViewController.swift in Sources */,
 				F0985DF323B60DBE00B78CE7 /* SearchResponse.swift in Sources */,
 				F0985DFB23B60E5800B78CE7 /* Extensions + String.swift in Sources */,
+				F0985E0723B60FF800B78CE7 /* PDFController.swift in Sources */,
 				F0985DF523B60DCA00B78CE7 /* Page.swift in Sources */,
 				F0985E0323B60F6E00B78CE7 /* Extansions + Array.swift in Sources */,
 				F0985DFF23B60F1A00B78CE7 /* UserDefaultsService.swift in Sources */,
 				F0985DE723B60A6500B78CE7 /* MainTabBarController.swift in Sources */,
+				F0985E0523B60FCE00B78CE7 /* CustonError.swift in Sources */,
 				F0985DF923B60E0A00B78CE7 /* ToggleButton.swift in Sources */,
 				F0985DED23B60AE000B78CE7 /* BaseViewController.swift in Sources */,
 				F0985DFD23B60EFE00B78CE7 /* NetworkService.swift in Sources */,
