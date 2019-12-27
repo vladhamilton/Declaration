@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xNn-Yl-mo8" customClass="PersonCell" customModule="Declaration" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QsU-RE-50u">
+                    <rect key="frame" x="16" y="16" width="263" height="118"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bs-bc-a1j">
+                            <rect key="frame" x="0.0" y="0.0" width="263" height="27.5"/>
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place of work" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eds-pQ-t4a">
+                            <rect key="frame" x="0.0" y="50" width="263" height="23.5"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                            <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Position" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bO8-8a-XxL">
+                            <rect key="frame" x="0.0" y="96" width="263" height="22"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                            <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xse-Jd-Wvt">
+                    <rect key="frame" x="289" y="16" width="70" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwj-cq-V26">
+                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                            <state key="normal" image="Profile"/>
+                            <connections>
+                                <action selector="profileButtonPressed:" destination="xNn-Yl-mo8" eventType="touchUpInside" id="T03-r1-uoC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJJ-SN-fqd" customClass="ToggleButton" customModule="Declaration" customModuleProvider="target">
+                            <rect key="frame" x="40" y="0.0" width="30" height="30"/>
+                            <state key="normal" image="Star"/>
+                            <connections>
+                                <action selector="favoritesButtonPressed:" destination="xNn-Yl-mo8" eventType="touchUpInside" id="r66-fU-xA5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="BmM-Dl-mmX"/>
+                        <constraint firstAttribute="height" constant="30" id="U4B-ON-Qj8"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QsU-RE-50u" firstAttribute="top" secondItem="xNn-Yl-mo8" secondAttribute="top" constant="16" id="a4u-7H-tpY"/>
+                <constraint firstItem="xse-Jd-Wvt" firstAttribute="top" secondItem="xNn-Yl-mo8" secondAttribute="top" constant="16" id="a6h-RJ-RvJ"/>
+                <constraint firstItem="xse-Jd-Wvt" firstAttribute="leading" secondItem="QsU-RE-50u" secondAttribute="trailing" constant="10" id="peR-lx-8vw"/>
+                <constraint firstItem="QsU-RE-50u" firstAttribute="leading" secondItem="DeC-tf-hhu" secondAttribute="leading" constant="16" id="sL7-Dv-23S"/>
+                <constraint firstItem="DeC-tf-hhu" firstAttribute="trailing" secondItem="xse-Jd-Wvt" secondAttribute="trailing" constant="16" id="waP-XH-beg"/>
+                <constraint firstItem="DeC-tf-hhu" firstAttribute="bottom" secondItem="QsU-RE-50u" secondAttribute="bottom" constant="16" id="wb2-Kb-oal"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="DeC-tf-hhu"/>
+            <connections>
+                <outlet property="favoritesButton" destination="PJJ-SN-fqd" id="PGB-P2-pcL"/>
+                <outlet property="nameLabel" destination="3bs-bc-a1j" id="lPe-HC-sbh"/>
+                <outlet property="placeOfWorkLabel" destination="Eds-pQ-t4a" id="Sax-Ja-bOj"/>
+                <outlet property="positionLabel" destination="bO8-8a-XxL" id="ww9-Fu-qho"/>
+            </connections>
+            <point key="canvasLocation" x="132.60869565217394" y="-131.25"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Profile" width="128" height="128"/>
+        <image name="Star" width="25" height="24"/>
+    </resources>
+</document>
