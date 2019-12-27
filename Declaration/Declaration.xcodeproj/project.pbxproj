@@ -23,6 +23,10 @@
 		F0985DF723B60DDD00B78CE7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985DF623B60DDD00B78CE7 /* Person.swift */; };
 		F0985DF923B60E0A00B78CE7 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985DF823B60E0A00B78CE7 /* ToggleButton.swift */; };
 		F0985DFB23B60E5800B78CE7 /* Extensions + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985DFA23B60E5800B78CE7 /* Extensions + String.swift */; };
+		F0985DFD23B60EFE00B78CE7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985DFC23B60EFE00B78CE7 /* NetworkService.swift */; };
+		F0985DFF23B60F1A00B78CE7 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985DFE23B60F1A00B78CE7 /* UserDefaultsService.swift */; };
+		F0985E0123B60F5100B78CE7 /* Extensions + UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985E0023B60F5100B78CE7 /* Extensions + UITableView.swift */; };
+		F0985E0323B60F6E00B78CE7 /* Extansions + Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0985E0223B60F6E00B78CE7 /* Extansions + Array.swift */; };
 		F8F192C54801E98F30AA1916 /* Pods_Declaration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53E21C1F9897671712DF6D0 /* Pods_Declaration.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +52,10 @@
 		F0985DF623B60DDD00B78CE7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F0985DF823B60E0A00B78CE7 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		F0985DFA23B60E5800B78CE7 /* Extensions + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + String.swift"; sourceTree = "<group>"; };
+		F0985DFC23B60EFE00B78CE7 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F0985DFE23B60F1A00B78CE7 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		F0985E0023B60F5100B78CE7 /* Extensions + UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UITableView.swift"; sourceTree = "<group>"; };
+		F0985E0223B60F6E00B78CE7 /* Extansions + Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extansions + Array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				F0985DFA23B60E5800B78CE7 /* Extensions + String.swift */,
+				F0985E0023B60F5100B78CE7 /* Extensions + UITableView.swift */,
+				F0985E0223B60F6E00B78CE7 /* Extansions + Array.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -156,6 +166,8 @@
 		F0985DE423B608F800B78CE7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F0985DFC23B60EFE00B78CE7 /* NetworkService.swift */,
+				F0985DFE23B60F1A00B78CE7 /* UserDefaultsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -288,13 +300,17 @@
 				F0985DEB23B60A8300B78CE7 /* SearchViewController.swift in Sources */,
 				F0985DCC23B6062800B78CE7 /* AppDelegate.swift in Sources */,
 				F0985DCE23B6062800B78CE7 /* SceneDelegate.swift in Sources */,
+				F0985E0123B60F5100B78CE7 /* Extensions + UITableView.swift in Sources */,
 				F0985DE923B60A7600B78CE7 /* FavoritesViewController.swift in Sources */,
 				F0985DF323B60DBE00B78CE7 /* SearchResponse.swift in Sources */,
 				F0985DFB23B60E5800B78CE7 /* Extensions + String.swift in Sources */,
 				F0985DF523B60DCA00B78CE7 /* Page.swift in Sources */,
+				F0985E0323B60F6E00B78CE7 /* Extansions + Array.swift in Sources */,
+				F0985DFF23B60F1A00B78CE7 /* UserDefaultsService.swift in Sources */,
 				F0985DE723B60A6500B78CE7 /* MainTabBarController.swift in Sources */,
 				F0985DF923B60E0A00B78CE7 /* ToggleButton.swift in Sources */,
 				F0985DED23B60AE000B78CE7 /* BaseViewController.swift in Sources */,
+				F0985DFD23B60EFE00B78CE7 /* NetworkService.swift in Sources */,
 				F0985DEF23B60CD400B78CE7 /* PersonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
