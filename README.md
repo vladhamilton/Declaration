@@ -21,6 +21,7 @@ Project is created with:
 ## Solution description
 
 The app loads data from nazk.gov.ua API, proccesses it and fills TableView. Also, you can add some persons to favorites and add and edit a comment.
+App supports Dark Theme.
 
 ## How to use
 
